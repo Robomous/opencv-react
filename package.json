@@ -72,12 +72,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Robomous/opencv-js-react.git"
+    "url": "https://github.com/Robomous/opencv-react.git"
   },
   "bugs": {
-    "url": "https://github.com/Robomous/opencv-js-react/issues"
+    "url": "https://github.com/Robomous/opencv-react/issues"
   },
-  "homepage": "https://github.com/Robomous/opencv-js-react#readme",
+  "homepage": "https://github.com/Robomous/opencv-react#readme",
   "keywords": [
     "opencv",
     "opencv.js",

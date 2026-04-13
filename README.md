@@ -239,7 +239,7 @@ Supported versions: `4.10.0`, `4.11.0`, `4.12.0`, `4.13.0`. Output is written to
 ## Local development
 
 ```bash
-git clone https://github.com/Robomous/opencv-js-react.git
+git clone https://github.com/Robomous/opencv-react.git
 cd opencv-js-react
 pnpm install
 
@@ -278,7 +278,7 @@ Publishing is triggered automatically when a GitHub release is published. The re
 
 To configure npm trusted publishing:
 - See [npm trusted publishers documentation](https://docs.npmjs.com/trusted-publishers/)
-- Enable it in your npm package settings for the `Robomous/opencv-js-react` GitHub repository
+- Enable it in your npm package settings for the `Robomous/opencv-react` GitHub repository
 
 Manual publish:
 
