@@ -45,10 +45,5 @@ jobs:
 
       - name: Publish to npm
         run: pnpm publish --provenance --access public --no-git-checks
-        # Uses npm trusted publishing via OIDC — no NODE_AUTH_TOKEN needed.
-        # To configure: https://docs.npmjs.com/trusted-publishers/
-        #
-        # Fallback (if trusted publishing is not yet configured):
-        # Set NODE_AUTH_TOKEN secret in repository settings and uncomment:
-        # env:
-        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
