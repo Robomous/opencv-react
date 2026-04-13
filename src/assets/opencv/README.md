@@ -1,6 +1,6 @@
 # OpenCV.js Local Asset (optional)
 
-The `@robomous/opencv-js-react` package does **not** bundle an OpenCV.js binary. By default it loads
+The `@robomous/opencv-react` package does **not** bundle an OpenCV.js binary. By default it loads
 OpenCV.js from the official CDN at runtime:
 
 ```

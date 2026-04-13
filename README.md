@@ -2,7 +2,7 @@
 
 ---
 
-# @robomous/opencv-js-react
+# @robomous/opencv-react
 
 A React wrapper for the official OpenCV.js library — bring computer vision to your React apps using WebAssembly.
 
@@ -26,13 +26,13 @@ This package is **browser-oriented**. It is not a generic Node.js image processi
 
 ```bash
 # pnpm (recommended)
-pnpm add @robomous/opencv-js-react
+pnpm add @robomous/opencv-react
 
 # npm
-npm install @robomous/opencv-js-react
+npm install @robomous/opencv-react
 
 # yarn
-yarn add @robomous/opencv-js-react
+yarn add @robomous/opencv-react
 ```
 
 **Peer dependencies** (install separately if not already present):
@@ -44,7 +44,7 @@ pnpm add react react-dom
 ## Quick start
 
 ```tsx
-import { OpenCVCanvas } from '@robomous/opencv-js-react';
+import { OpenCVCanvas } from '@robomous/opencv-react';
 
 export default function App() {
   return (
@@ -72,7 +72,7 @@ export default function App() {
 
 ```tsx
 import React, { useRef } from 'react';
-import { OpenCVCanvas } from '@robomous/opencv-js-react';
+import { OpenCVCanvas } from '@robomous/opencv-react';
 
 export default function Demo() {
   const outputCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -200,7 +200,7 @@ interface ProcessPayload {
 
 ## OpenCV.js source
 
-`@robomous/opencv-js-react` does not bundle an OpenCV.js binary. By default it loads from the official CDN:
+`@robomous/opencv-react` does not bundle an OpenCV.js binary. By default it loads from the official CDN:
 
 ```
 https://docs.opencv.org/4.13.0/opencv.js

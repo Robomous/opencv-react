@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This file is part of @robomous/opencv-js-react project from Robomous.
+# This file is part of @robomous/opencv-react project from Robomous.
 # It is subject to the license terms in the LICENSE file found in the top-level directory
 
 # =============================================================================
@@ -138,7 +138,7 @@ BUILD_DIR="${CHECKOUT_DIR}/build_js"
 # Summary
 # =============================================================================
 echo "============================================================"
-echo "  @robomous/opencv-js-react: Building OpenCV.js"
+echo "  @robomous/opencv-react: Building OpenCV.js"
 echo "============================================================"
 echo "  Version:             ${VERSION}"
 echo "  Package name:        ${PACKAGE_NAME}"

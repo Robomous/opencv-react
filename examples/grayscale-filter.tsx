@@ -1,4 +1,4 @@
-// This file is part of @robomous/opencv-js-react project from Robomous.
+// This file is part of @robomous/opencv-react project from Robomous.
 // It is subject to the license terms in the LICENSE file found in the top-level directory
 
 /**
@@ -14,8 +14,8 @@
  * - `mat.delete()` — ALWAYS delete every Mat you create to avoid memory leaks
  */
 import { useRef } from 'react';
-import { OpenCVCanvas } from '@robomous/opencv-js-react';
-import type { ProcessPayload } from '@robomous/opencv-js-react';
+import { OpenCVCanvas } from '@robomous/opencv-react';
+import type { ProcessPayload } from '@robomous/opencv-react';
 
 const IMAGE_URL = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png';
 

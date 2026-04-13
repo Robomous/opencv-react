@@ -1,5 +1,5 @@
 {
-  "name": "@robomous/opencv-js-react",
+  "name": "@robomous/opencv-react",
   "version": "0.1.0",
   "description": "A React wrapper for the official OpenCV.js library.",
   "type": "module",
