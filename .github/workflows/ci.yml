@@ -27,6 +27,12 @@ jobs:
           node-version: 24
           cache: pnpm
 
+      - name: Debug lockfile
+        run: |
+          sha256sum pnpm-lock.yaml
+          head -3 pnpm-lock.yaml
+          wc -l pnpm-lock.yaml
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
