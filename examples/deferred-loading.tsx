@@ -1,4 +1,4 @@
-// This file is part of opencv-js-react project from Robomous.
+// This file is part of @robomous/opencv-js-react project from Robomous.
 // It is subject to the license terms in the LICENSE file found in the top-level directory
 
 /**
@@ -11,7 +11,7 @@
  * Call `load()` from any event handler to trigger the download on demand.
  * Subsequent calls to `load()` are no-ops — OpenCV loads exactly once.
  */
-import { useOpenCV } from 'opencv-js-react';
+import { useOpenCV } from '@robomous/opencv-js-react';
 
 export function DeferredLoading() {
   const { isReady, isLoading, error, load } = useOpenCV({ autoLoad: false });

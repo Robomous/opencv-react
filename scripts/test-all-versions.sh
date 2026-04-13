@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This file is part of opencv-js-react project from Robomous.
+# This file is part of @robomous/opencv-js-react project from Robomous.
 # It is subject to the license terms in the LICENSE file found in the top-level directory
 
 # =============================================================================
@@ -27,7 +27,7 @@ FAIL=0
 declare -a RESULTS
 
 echo "============================================================"
-echo "  opencv-js-react: Testing all OpenCV.js versions"
+echo "  @robomous/opencv-js-react: Testing all OpenCV.js versions"
 echo "============================================================"
 echo ""
 
